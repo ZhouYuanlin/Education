@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-7-10 15:45:33 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.education.entity.Student" table="STUDENT">
+        <id name="S_num" type="java.lang.String">
+            <column name="S_NUM" />
+            <generator class="assigned" />
+        </id>
+        <property name="S_name" type="java.lang.String">
+            <column name="S_NAME" />
+        </property>
+        <property name="S_nick" type="java.lang.String">
+            <column name="S_NICK" />
+        </property>
+        <property name="S_age" type="java.lang.String">
+            <column name="S_AGE" />
+        </property>
+        <property name="S_add" type="java.lang.String">
+            <column name="S_ADD" />
+        </property>
+        <property name="S_sch" type="java.lang.String">
+            <column name="S_SCH" />
+        </property>
+        <property name="S_grade" type="java.lang.String">
+            <column name="S_GRADE" />
+        </property>
+        <property name="S_hobby" type="java.lang.String">
+            <column name="S_HOBBY" />
+        </property>
+        <property name="S_tel" type="java.lang.String">
+            <column name="S_TEL" />
+        </property>
+        <property name="S_mail" type="java.lang.String">
+            <column name="S_MAIL" />
+        </property>
+        <property name="S_pic" type="java.lang.String">
+            <column name="S_PIC" />
+        </property>
+        <property name="S_exp" type="java.lang.String">
+            <column name="S_EXP" />
+        </property>
+    </class>
+</hibernate-mapping>

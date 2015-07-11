@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-7-10 15:48:11 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.education.entity.Teacher" table="TEACHER">
+        <id name="T_num" type="java.lang.String">
+            <column name="T_NUM" />
+            <generator class="assigned" />
+        </id>
+        <property name="T_name" type="java.lang.String">
+            <column name="T_NAME" />
+        </property>
+        <property name="T_nick" type="java.lang.String">
+            <column name="T_NICK" />
+        </property>
+        <property name="T_age" type="java.lang.String">
+            <column name="T_AGE" />
+        </property>
+        <property name="T_add" type="java.lang.String">
+            <column name="T_ADD" />
+        </property>
+        <property name="T_sch" type="java.lang.String">
+            <column name="T_SCH" />
+        </property>
+        <property name="T_grade" type="java.lang.String">
+            <column name="T_GRADE" />
+        </property>
+        <property name="T_hobby" type="java.lang.String">
+            <column name="T_HOBBY" />
+        </property>
+        <property name="T_tel" type="java.lang.String">
+            <column name="T_TEL" />
+        </property>
+        <property name="T_mail" type="java.lang.String">
+            <column name="T_MAIL" />
+        </property>
+        <property name="T_pic" type="java.lang.String">
+            <column name="T_PIC" />
+        </property>
+        <property name="T_rank" type="java.lang.String">
+            <column name="T_RANK" />
+        </property>
+    </class>
+</hibernate-mapping>
